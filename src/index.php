@@ -142,24 +142,4 @@
 
 	}
 	
-	function createSession() {
-		
-		session_start();
-		$_SESSION['loggedon'] = 'true';
-		$_SESSION['user'] = serialize($user);
-       	$_SESSION['ttl'] = 1500;
-       	$_SESSION['stamp'] = time ();
-
-	}
-
-	function logoutSession() {
-		session_start();
-				
-		if (isset($_SESSION['loggedon'])) {
-
-			$_SESSION['loggedon'] = 'false';
-			session_destroy();
-		}
-		
-	}
 ?>

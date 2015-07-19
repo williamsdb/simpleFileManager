@@ -7,7 +7,6 @@ if ($password == 'yourpassword') {
 	//Set the session state
 	session_start();
 	$_SESSION['loggedon'] = 'true';
-	$_SESSION['user'] = serialize($user);
     $_SESSION['ttl'] = 1500;
     $_SESSION['stamp'] = time ();
     
