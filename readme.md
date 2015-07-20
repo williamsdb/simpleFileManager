@@ -10,6 +10,8 @@ Features:
 * download zip file of all uploaded files
 * session handling and timeout
 
+Read more about the rationale behind the need for the file manager [on my blog](http://www.spokenlikeageek.com/2015/07/20/a-very-simple-file-manager-in-php/)
+
 NOTE: this code is designed as an example of the features of PHP file handling and is not intended to be a fully robust solution.
 
 ## Installation
@@ -33,4 +35,4 @@ Use at our own risk!
 
 ## License
 
-Do what you want.
+Do what you want with it. It is provided “as is” with no warranties whatsoever.
